@@ -23,7 +23,7 @@ services:
       watch:
         - path: ./app/package.json
           action: rebuild
-        - path: ./app
+        - path: app/views/todos.ejs
           target: /usr/src/app
           action: sync
 
