@@ -12,6 +12,7 @@ services:
   todo-app:
     build:
       context: ./app
+      dockerfile: ./app/Dockerfile
     depends_on:
       - todo-database
     environment:
